@@ -5307,7 +5307,7 @@ p { margin: 0; }
   const AUD = (function () {
     let ctx = null, musicBus = null, sfxBus = null, dip = null, rate = 1, curKey = null, cur = null, duck = 1, bl = null, nSrc = 0;
     const bufs = {}, tracks = {}, lastAt = {};
-    const BASE = 'audio/';
+    const BASE = '';
     const MUSIC = ['menu', 'boss', 'theme', 'store', 'death', 'round1', 'harpy', 'monster', 'monster2', 'cold', 'lockets', 'mapfight'];
     const MVOL = { menu: 0.85, theme: 0.55, store: 0.8, boss: 0.6, death: 0.9, round1: 0.55, harpy: 0.55, monster: 0.55, monster2: 0.5, cold: 0.55, lockets: 0.55, mapfight: 0.55 };
     const SFXN = ['bullets', 'boom', 'zap', 'edeath', 'edeath2', 'mdeath', 'power1', 'power2', 'door', 'chest', 'relic', 'bossrew', 'bossin', 'reroll', 'purchase', 'purchase2', 'w_fl', 'w_bo', 'w_sg', 'w_sn', 'w_mg', 'plasma'];
